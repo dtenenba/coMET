@@ -1,0 +1,69 @@
+COMET 0.99.10 - 2015-04-10
+-------------------------
+- Update regulationBiomart function and the pre-computed data associated because ENSEMBL has recently updated their schema in Biomart for these data.
+- Update the documentations (man and vignette)
+
+COMET 0.99.9 - 2015-03-10
+-------------------------
+- Update snpBiomart and structureBiomart functions and the pre-computed data associated because ENSEMBL has recently updated their schema in Biomart for these data.
+- Update the documentations (man and vignette)
+- Add the function compute.pvalue.cormatrix and allow the visualisation of only correlation under a significant level. (use the library psych)
+- Add the function comet.list to list the correlations between omic features
+- Replace capital letter by low letter
+- Update Shiny-based web application according to new functions
+
+COMET 0.99.8 - 2015-02-15
+-----------------------------
+- Correction genesNameENSEMBL in order not to run if no ENSEMBL gene in the region of interest 
+- Correction the error related to the loading of correlation matrice
+- Update the visualisation of Chromosome with the name of band (related to an update of Gviz)
+- Remove the visualisation of border for genes and transcripts to help the visualisation of different exons
+- Update the vignette about comet's Shiny website and colors of tracks
+- Update the annotation tracks as Gviz was updated and now coMET can work on Gviz (version 1.10.9, current version)
+
+COMET 0.99.7 - 2014-12-19
+-----------------------------
+- Update the function "genesENSEMBL", "genesNameENSEMBL", "transcriptENSEMBL", and "regulationBiomart" because ENSEMBL mart changed the names of field in GChr37
+
+
+COMET 0.99.6 - 2014-11-25
+-----------------------------
+- add in "import IRanges and S4Vectors" in NAMESPACE
+- Fix mistakes in the vignette
+
+
+COMET 0.99.5 - 2014-11-06
+-----------------------------
+- Update the annotation tracks using Gviz because of the update of Gviz (version 1.11.2, development version)
+
+COMET 0.99.4 - 2014-11-05
+-----------------------------
+- Update the manual and the vignette
+- Fix little bugs
+- Update the annotation tracks using BiomartGeneRegionTrack of Gviz
+
+
+COMET 0.99.3 - 2014-10-25
+-----------------------------
+- Update the manuel and the vignette
+- Update the function to create annotation tracks connecting to ENSEMBL mart (change of schema)
+- Fix little bug
+- Add the function to define the reference genome (cf the change of schema of ENSEMBL mart)
+
+
+COMET 0.99.2 - 2014-10-16
+-----------------------------
+
+- Update the manual comet.web file
+
+COMET 0.99.1 - 2014-10-16
+-----------------------------
+
+- Add the package "BiocStyle" in Suggests of DESCRIPTION file
+- Change the absolute path to relative path of files (info file, expression file, and correlation file) in vignette and manual
+
+
+COMET 0.99.0 - 2014-09-24
+-----------------------------
+
+- Version draft of this script
